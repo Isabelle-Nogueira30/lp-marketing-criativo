@@ -69,7 +69,10 @@ width: 580px;
         color:white;
         font-weight: bold;
      }
-    
+    form {
+      display:flex;
+      flex-direction: column;
+    }
      form [type="submit"]:hover{
         cursor: pointer;
      }
@@ -80,4 +83,8 @@ width: 580px;
         border:none;
         font-size: 15px;
         display:block
+     }
+
+     * {
+      font-family: "Poppins", sans-serif;
      }
